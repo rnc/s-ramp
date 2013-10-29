@@ -1,66 +1,113 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>S-RAMP by Governance</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="img/favicon.png">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Overlord: S-RAMP</title>
+
+    <link href="lib/bootstrap-3.0.0/css/bootstrap.css" rel="stylesheet">
+    <link href="css/sramp-web.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
     <![endif]-->
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>S-RAMP</h1>
-        <p>Implementation of the SOA Repository Artifact Model and Protocol (S-RAMP)</p>
 
-        <p class="view"><a href="https://github.com/Governance/s-ramp">View the Project on GitHub <small>Governance/s-ramp</small></a></p>
+    <div class="container">
+      <div class="jumbotron" style="position:relative">
+        <h1>Overlord: S-RAMP</h1>
+        <span class="lead">SOA Repository Artifact Model and Protocol</span>
+        <p><a class="btn btn-lg btn-success" href="#">Get Started Now</a>
+        <a class="btn btn-lg btn-warning" href="http://downloads.jboss.org/overlord/sramp/s-ramp-0.3.0.Final.zip">Download Now</a></p>
+        <a href="https://github.com/Governance/s-ramp"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt=""></a>
+      </div>
+      
+      <div class="inner">
+          <!-- *** Features *** -->
+          <div class="features row">
+            <div class="col-lg-3">
+              <h3>Artifact Repository</h3>
+              <p>Store all your artifacts in this easy to use repository;  everything from XML to WSDL to PDF documentation.</p>
+            </div>
+            <div class="col-lg-3">
+              <h3>Atom API</h3>
+              <p>Easily interact with the repository using the S-RAMP specificaton mandated Atom REST API.</p>
+           </div>
+            <div class="col-lg-3">
+              <h3>Easy Integration</h3>
+              <p>Take advantage of out of the box integration with Maven or design your own using the included Java client.</p>
+            </div>
+            <div class="col-lg-3">
+              <h3>Multiple Interfaces</h3>
+              <p>Browse the contents of the repository using either the web based browser or the command line client.</p>
+            </div>
+          </div>
+          
+          <!-- *** Community *** -->
+          <div class="community row">
+            <!-- Left side -->
+            <div class="col-lg-6">
+              <div class="citem">
+                <h3>Latest Version <span class="version pull-right hide-480">0.3.0.Final</span></h3>
+                <p>The first stable release of S-RAMP - released on July 17, 2013.</p>
+                <div class="links">
+                  <a href="https://github.com/Governance/s-ramp/archive/s-ramp-0.3.0.Final.zip">Source</a> |
+                  <a href="http://downloads.jboss.org/overlord/sramp/s-ramp-0.3.0.Final.zip">Binary</a> |
+                  <a href="http://docs.jboss.org/overlord/sramp/0.3.0.Final/html/">Docs</a> |
+                  <a href="https://community.jboss.org/en/overlord">Forum</a>
+                </div>
+              </div>
+              <div class="citem minor">
+                <h3>Next Version (in dev) <span class="version pull-right hide-480">0.4.0-SNAPSHOT</span></h3>
+                <p>This is what we're currently working on.  Now's a great time to take a look and offer suggestions!</p>
+                <div class="links">
+                  <a href="https://github.com/Governance/s-ramp/">Source on GitHub</a> |
+                  <a href="https://github.com/Governance/s-ramp/wiki/Guide">Docs</a> |
+                  <a href="https://community.jboss.org/en/overlord">Forum</a>
+                </div>
+              </div>
+              <div class="citem">
+                <h3>Join the Conversation</h3>
+                <p>
+                  We're always looking for collaboration!  If you'd like to get involved in the project by 
+                  offering feedback or suggesting features, here some some places you can find us:
+                </p>
+                <div class="links">
+                  <a href="https://community.jboss.org/en/overlord">Forum Discussions</a> |
+                  <a href="http://www.jboss.org/overlord/irc">Chat on IRC</a> |
+                  <a href="https://issues.jboss.org/browse/SRAMP">Report a Bug</a>
+                </div>
+              </div>
+            </div>
+            <!-- Right side -->
+            <div class="col-lg-6">
+              <div class="citem">
+                <h3>Project News</h3>
+                <a height="400" class="twitter-timeline" data-chrome="noheader nofooter transparent" data-dnt="true" href="https://twitter.com/OverlordSRAMP"  data-widget-id="393444572165984256">Tweets by @OverlordSRAMP</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <!-- Site footer -->
+      <div class="footer">
+        JBoss Overlord - 2013
+      </div>
+
+    </div> <!-- /container -->
 
 
-        <ul>
-          <li><a href="https://github.com/Governance/s-ramp/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/Governance/s-ramp/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/Governance/s-ramp">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/Governance">Governance</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
   </body>
 </html>
