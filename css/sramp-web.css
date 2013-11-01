@@ -126,6 +126,10 @@ body {
   color: #444;
 }
 
+.inner .community .citem p {
+  line-height: 16px;
+}
+
 .inner .community .citem .links {
   color: #666;
 }
