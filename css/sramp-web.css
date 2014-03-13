@@ -12,6 +12,8 @@ body {
   padding: 0px;
   border-radius: 8px 8px 8px 8px;
   -webkit-border-radius: 6px 6px 6px 6px;
+  border: 1px solid #333;
+  margin-bottom: 20px;
 }
 
 .container .inner {
@@ -205,5 +207,8 @@ body {
   }
   .hide-480 {
     display: none;
+  }
+  .inner .community {
+    padding: 5px;
   }
 }
